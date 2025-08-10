@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #00171fff;
+    --second: #003459ff;
+    --third: #007ea7ff;
+    --fourth: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*-----------------------------HEADER----------------------------*/
+header {
+    background-color: var(--primary);
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.nav-link {
+    color: var(--fourth);
+}
+/*-------------------------------MAIN-------------------------*/
+
+main {
+    background-color: var(--fourth);
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+    color: var(--primary);
+}
+
+.subtitulo {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--second);
+}
+
+.titulo-noticia {
+    padding-left: 0 0 1rem 1rem;
+    color: white;
+    text-align: center;
+}
+
+p {
+    padding: 1rem;
+    color: var(--primary);
+    text-align: justify;
+}
+
+.img-inicio {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/*-----------------------Trayectoria------------------------------*/
+.trayectoria {
+    display: grid;
+    grid-template-areas: 
+    "seleccion seleccion parrafo"
+    "nacional1 groningen ajax"
+    "liverpool barcelona aleti"
+    "nacional2 gremio miami";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr 1fr 1fr 1fr;
+}
+
+.etapa-seleccion {
+    grid-area: seleccion;
+}
+
+.etapa-nacional1 {
+    grid-area: nacional1;
+}
+
+.etapa-groningen {
+    grid-area: groningen;
+}
+.etapa-ajax {
+    grid-area: ajax;
+}
+.etapa-liverpool {
+    grid-area: liverpool;
+}
+.etapa-barcelona {
+    grid-area: barcelona;
+}
+.etapa-aleti {
+    grid-area: aleti;
+}
+.etapa-nacional2 {
+    grid-area: nacional2;
+}
+.etapa-gremio {
+    grid-area: gremio;
+}
+.etapa-inter {
+    grid-area: miami;
+}
+
+/*******************************************************************/
+
+.novedades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia {
+    text-align: center;
+}
+/*--------------------------------FOOTER-------------------------*/
+
+footer {
+    background-color: var(--primary);
+}
+
+.footer-text {
+    color: wheat;
+}
