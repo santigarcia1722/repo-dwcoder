@@ -27,39 +27,44 @@
     </nav>
     </header>
 
-    <main>
-      <section class="contacto">
-        <h1 class="titulo-principal">TU OPINIÓN NOS IMPORTA</h1>
-        <h2 class="subtitulo">Comunícate con nosotros. Estaremos en contacto lo más pronto posible</h2>
+<main>
+  <section class="contacto">
+    <h1 class="titulo-principal">TU OPINIÓN NOS IMPORTA</h1>
+    <h2 class="subtitulo">Comunícate con nosotros. Estaremos en contacto lo más pronto posible</h2>
 
-        <form action="/procesar.php" method="post" class="form-contacto">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required />
-          <br><br>
+    <div class="form-wrapper">
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre y Apellido</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
 
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" required />
-          <br><br>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+        </div>
 
-          <label for="celular">Celular:</label>
-          <input type="tel" id="celular" name="celular" required />
-          <br><br>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input type="tel" class="form-control" id="telefono">
+        </div>
 
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3" placeholder="Déjanos aquí tu consulta..."></textarea>
+        </div>
 
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-          <br><br>
+        <button type="submit" class="btn btn-primary btn-centrado">Enviar</button>
+      </form>
+    </div>
+  </section>
+</main>
 
-          <input type="submit" value="Enviar" />
-        </form>
-      </section>
-    </main>
-
-    <footer>
-      <p class="footer-text">
-        Sitio sin fines de lucro creado con fines educativos. Todos los derechos de imagen pertenecen a sus respectivos autores.
-      </p>
-    </footer>
+<footer>
+  <p class="footer-text">
+    Sitio sin fines de lucro creado con fines educativos. Todos los derechos de imagen pertenecen a sus respectivos autores.
+  </p>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>

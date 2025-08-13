@@ -94,7 +94,26 @@ p {
     margin: 0;
     text-align: justify;
 }
-/*******************************************************************/
+/*---------------------------Contacto----------------------------*/
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper form {
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn-centrado {
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************************************/
 
 .novedades {
     display: flex;
