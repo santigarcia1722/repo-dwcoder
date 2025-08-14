@@ -94,6 +94,17 @@ p {
     margin: 0;
     text-align: justify;
 }
+
+/****************************Trofeos*******************************/
+
+.img-sm {
+  width: 100%;
+  height: auto;
+  box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.62);
+  -webkit-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.62);
+  -moz-box-shadow: 7px 6px 16px 0px rgba(0,0,0,0.62);
+}
+
 /*---------------------------Contacto----------------------------*/
 
 .form-wrapper {
