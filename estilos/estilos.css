@@ -15,10 +15,11 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    height: 100%;
 }
 
 
-/*-----------------------------HEADER----------------------------*/
+/*-----------------------------Header----------------------------*/
 header {
     background-color: var(--primary);
 }
@@ -30,10 +31,11 @@ header {
 .nav-link {
     color: var(--fourth);
 }
-/*-------------------------------MAIN-------------------------*/
+/*-------------------------------Main-------------------------*/
 
 main {
     background-color: var(--fourth);
+    flex: 1;
 }
 
 .titulo-principal {
